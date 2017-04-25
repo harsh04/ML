@@ -1,0 +1,7 @@
+from sklearn.datasets import load_digits
+digits = load_digits()
+
+print(type(digits))
+print( digits.data)
+print( digits.target)
+target_names
